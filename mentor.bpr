@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="mentor.exe"/>
+    <OBJFILES value="MENTOR.obj headwin.obj utilm.obj fglobal.obj tkurs.obj tquest.obj 
+      BMENTOR.obj quest1.obj matlin.obj dtask.obj qvarnt.obj nqselect.obj 
+      quest2.obj matumn.obj quest3.obj mateigv.obj quest4.obj matopr.obj 
+      quest5.obj gauss.obj integral.obj quest6.obj odsistem.obj quest7.obj 
+      scale.obj quest8.obj MPreview.obj ExprDraw.obj ExprMake.obj quest9.obj 
+      MVectorMul.obj MNormal.obj quest10.obj MLine.obj quest11.obj MAngle.obj 
+      quest12.obj MPlane.obj quest13.obj MElips.obj quest14.obj MGiper.obj 
+      quest15.obj MParab.obj quest16.obj MSmMul.obj quest17.obj MDl.obj 
+      quest18.obj MPdl.obj quest19.obj MPreview2.obj integral2.obj quest20.obj 
+      MRang.obj quest21.obj MAbout.obj MLinDet.obj quest22.obj quest23.obj 
+      MKramer.obj MShow1.obj MKRVar.obj MPreview3.obj MGenKey.obj MObrMatr.obj 
+      quest24.obj MEditWork.obj MPr.obj quest25.obj MLinePlane.obj quest26.obj 
+      MComp.obj quest27.obj MLinePrizm.obj quest28.obj MLineCmp.obj quest29.obj 
+      MConvert.obj MRenameKonW.obj MMentorConfig.obj MGenHtml.obj MFtpMod.obj 
+      MVarCmp.obj det.obj MPrint.obj drobi.obj determ.obj quest31.obj 
+      queEigens.obj MATRGEN.obj MEigen.obj quelim01.obj MLim01.obj 
+      MTRconvene.obj m_limits.obj queDeriv.obj mc_deriv.obj MDeriv.obj 
+      queMFlabs.obj m_mflab.obj m_expressions.obj TMFlabs.obj queInteg.obj 
+      MInteg.obj m_integ.obj queLimRnd.obj LimRnd.obj"/>
+    <RESFILES value="mentor.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) headwin.dfm matlin.dfm dtask.dfm qvarnt.dfm nqselect.dfm 
+      matumn.dfm mateigv.dfm matopr.dfm gauss.dfm integral.dfm odsistem.dfm 
+      scale.dfm MPreview.dfm MVectorMul.dfm MNormal.dfm MLine.dfm MAngle.dfm 
+      MPlane.dfm MElips.dfm MGiper.dfm MParab.dfm MSmMul.dfm MDl.dfm MPdl.dfm 
+      MPreview2.dfm integral2.dfm MRang.dfm MAbout.dfm MLinDet.dfm MKramer.dfm 
+      MShow1.dfm MKRVar.dfm MPreview3.dfm MGenKey.dfm MObrMatr.dfm MEditWork.dfm 
+      MPr.dfm MLinePlane.dfm MComp.dfm MLinePrizm.dfm MLineCmp.dfm 
+      MRenameKonW.dfm MMentorConfig.dfm MGenHtml.dfm MFtpMod.dfm MVarCmp.dfm 
+      MPrint.dfm MEigen.dfm MLim01.dfm MTRconvene.dfm MDeriv.dfm TMFlabs.dfm 
+      MInteg.dfm LimRnd.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="PKIECTRLC5.lib dclocx.lib nmfast.lib ibsmp.lib vcljpg.lib bdertl.lib 
+      vcldb.lib dbrtl.lib qrpt.lib vclx.lib bcbsmp.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib bcbsmp.lib vclx.lib qrpt.lib dbrtl.lib vcldb.lib 
+      bdertl.lib vcljpg.lib ibsmp.lib nmfast.lib dclocx.lib PKIECTRLC5.lib"/>
+    <PACKAGES value="rtl.bpi vcl.bpi vclx.bpi vcljpg.bpi bcbsmp.bpi qrpt.bpi dbrtl.bpi 
+      vcldb.bpi bdertl.bpi ibsmp.bpi vcldbx.bpi teeui.bpi teedb.bpi tee.bpi 
+      nmfast.bpi dclocx.bpi PKIECTRLC5.bpi PKIEDBC5.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="MENTOR.cpp"/>
+    <INCLUDEPATH value="C:\CBuilder5\Projects\;&quot;D:\Program Files\HiComponents\CImageEn5\BCB5\&quot;;&quot;C:\Program Files\Borland\CBuilder5\Bin\&quot;;pas;$(BCB)\include;$(BCB)\include\vcl;BCB5"/>
+    <LIBPATH value="C:\CBuilder5\Projects\;&quot;D:\Program Files\HiComponents\CImageEn5\BCB5\&quot;;&quot;C:\Program Files\Borland\CBuilder5\Bin\&quot;;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib;BCB5"/>
+    <WARNINGS value="-w-par -w-8027 -w-8026"/>
+    <WARNOPTSTR value=""/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-src_suffix cpp -IC:\CBuilder5\Projects\. 
+      -I&quot;D:\Program Files\HiComponents\CImageEn5\BCB5\.&quot; 
+      -I&quot;C:\Program Files\Borland\CBuilder5\Bin\.&quot; -Ipas -I$(BCB)\include 
+      -I$(BCB)\include\vcl -IBCB5 -boa"/>
+    <CFLAG1 value="-Od -H=d:\mentor\mentorsrc\head -Vx -Ve -X- -r- -a8 -5 -b- -k -y -v -vi- 
+      -c -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -H:0x200000 -Hc:0x20000 -S:0x200000 -Sc:0x20000 -aa -Tpe -x -Gn -w -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="MENTOR.cpp" FORMNAME="" UNITNAME="MENTOR" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mentor.res" FORMNAME="" UNITNAME="mentor" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="headwin.cpp" FORMNAME="hwin" UNITNAME="headwin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="utilm.cpp" FORMNAME="" UNITNAME="utilm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fglobal.cpp" FORMNAME="" UNITNAME="fglobal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="tkurs.cpp" FORMNAME="" UNITNAME="tkurs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="tquest.cpp" FORMNAME="" UNITNAME="tquest" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BMENTOR.CPP" FORMNAME="" UNITNAME="BMENTOR" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest1.cpp" FORMNAME="" UNITNAME="quest1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="matlin.cpp" FORMNAME="pmatlin" UNITNAME="matlin" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="dtask.cpp" FORMNAME="ptask" UNITNAME="dtask" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="qvarnt.cpp" FORMNAME="qvar" UNITNAME="qvarnt" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="nqselect.cpp" FORMNAME="pnqselect" UNITNAME="nqselect" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest2.cpp" FORMNAME="" UNITNAME="quest2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="matumn.cpp" FORMNAME="pmatumn" UNITNAME="matumn" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest3.cpp" FORMNAME="" UNITNAME="quest3" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mateigv.cpp" FORMNAME="pmateigv" UNITNAME="mateigv" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest4.cpp" FORMNAME="" UNITNAME="quest4" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="matopr.cpp" FORMNAME="Matdet" UNITNAME="matopr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest5.cpp" FORMNAME="" UNITNAME="quest5" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="gauss.cpp" FORMNAME="LinSistem" UNITNAME="gauss" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="integral.cpp" FORMNAME="OprInt" UNITNAME="integral" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest6.cpp" FORMNAME="" UNITNAME="quest6" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="odsistem.cpp" FORMNAME="NullSystem" UNITNAME="odsistem" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest7.cpp" FORMNAME="" UNITNAME="quest7" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="scale.cpp" FORMNAME="ScalMul" UNITNAME="scale" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest8.cpp" FORMNAME="" UNITNAME="quest8" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPreview.cpp" FORMNAME="Preview" UNITNAME="MPreview" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ExprDraw.pas" FORMNAME="" UNITNAME="ExprDraw" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ExprMake.pas" FORMNAME="" UNITNAME="ExprMake" CONTAINERID="PascalCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest9.cpp" FORMNAME="" UNITNAME="quest9" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MVectorMul.cpp" FORMNAME="VectorMul" UNITNAME="MVectorMul" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MNormal.cpp" FORMNAME="Normal" UNITNAME="MNormal" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest10.cpp" FORMNAME="" UNITNAME="quest10" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MLine.cpp" FORMNAME="Line" UNITNAME="MLine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest11.cpp" FORMNAME="" UNITNAME="quest11" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MAngle.cpp" FORMNAME="Angle" UNITNAME="MAngle" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest12.cpp" FORMNAME="" UNITNAME="quest12" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPlane.cpp" FORMNAME="Plane" UNITNAME="MPlane" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest13.cpp" FORMNAME="" UNITNAME="quest13" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MElips.cpp" FORMNAME="Elips" UNITNAME="MElips" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest14.cpp" FORMNAME="" UNITNAME="quest14" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MGiper.cpp" FORMNAME="Giper" UNITNAME="MGiper" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest15.cpp" FORMNAME="" UNITNAME="quest15" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MParab.cpp" FORMNAME="Parab" UNITNAME="MParab" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest16.cpp" FORMNAME="" UNITNAME="quest16" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MSmMul.cpp" FORMNAME="SmMul" UNITNAME="MSmMul" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest17.cpp" FORMNAME="" UNITNAME="quest17" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MDl.cpp" FORMNAME="PRLine" UNITNAME="MDl" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest18.cpp" FORMNAME="" UNITNAME="quest18" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPdl.cpp" FORMNAME="PlaneLine" UNITNAME="MPdl" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest19.cpp" FORMNAME="" UNITNAME="quest19" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPreview2.cpp" FORMNAME="Preview2" UNITNAME="MPreview2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="integral2.cpp" FORMNAME="NeoInt" UNITNAME="integral2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest20.cpp" FORMNAME="" UNITNAME="quest20" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MRang.cpp" FORMNAME="Rang" UNITNAME="MRang" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest21.cpp" FORMNAME="" UNITNAME="quest21" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MAbout.cpp" FORMNAME="About" UNITNAME="MAbout" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MLinDet.cpp" FORMNAME="LinDet" UNITNAME="MLinDet" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest22.cpp" FORMNAME="" UNITNAME="quest22" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest23.cpp" FORMNAME="" UNITNAME="quest23" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MKramer.cpp" FORMNAME="Kramer" UNITNAME="MKramer" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MShow1.cpp" FORMNAME="MShow" UNITNAME="MShow1" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MKRVar.cpp" FORMNAME="KRVar" UNITNAME="MKRVar" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPreview3.cpp" FORMNAME="Preview3" UNITNAME="MPreview3" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MGenKey.cpp" FORMNAME="GenKey" UNITNAME="MGenKey" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MObrMatr.cpp" FORMNAME="ObrMatr" UNITNAME="MObrMatr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest24.cpp" FORMNAME="" UNITNAME="quest24" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MEditWork.cpp" FORMNAME="EditWork" UNITNAME="MEditWork" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPr.cpp" FORMNAME="Pr" UNITNAME="MPr" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest25.cpp" FORMNAME="" UNITNAME="quest25" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MLinePlane.cpp" FORMNAME="LinePlane" UNITNAME="MLinePlane" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest26.cpp" FORMNAME="" UNITNAME="quest26" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MComp.cpp" FORMNAME="CompLine" UNITNAME="MComp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest27.cpp" FORMNAME="" UNITNAME="quest27" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MLinePrizm.cpp" FORMNAME="LinePrizm" UNITNAME="MLinePrizm" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest28.cpp" FORMNAME="" UNITNAME="quest28" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MLineCmp.cpp" FORMNAME="LineCmp" UNITNAME="MLineCmp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest29.cpp" FORMNAME="" UNITNAME="quest29" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MConvert.cpp" FORMNAME="" UNITNAME="MConvert" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MRenameKonW.cpp" FORMNAME="RenameKonW" UNITNAME="MRenameKonW" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MMentorConfig.cpp" FORMNAME="MentorConfig" UNITNAME="MMentorConfig" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MGenHtml.cpp" FORMNAME="GenHtml" UNITNAME="MGenHtml" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MFtpMod.cpp" FORMNAME="FtpMod" UNITNAME="MFtpMod" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MVarCmp.cpp" FORMNAME="CompareVar" UNITNAME="MVarCmp" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="det.cpp" FORMNAME="" UNITNAME="det" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MPrint.cpp" FORMNAME="PrintKW" UNITNAME="MPrint" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="drobi.cpp" FORMNAME="" UNITNAME="drobi" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="determ.cpp" FORMNAME="" UNITNAME="determ" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quest31.cpp" FORMNAME="" UNITNAME="quest31" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="queEigens.cpp" FORMNAME="" UNITNAME="queEigens" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MATRGEN.CPP" FORMNAME="" UNITNAME="MATRGEN" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MEigen.cpp" FORMNAME="Eigen" UNITNAME="MEigen" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="quelim01.cpp" FORMNAME="" UNITNAME="quelim01" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MLim01.cpp" FORMNAME="Lim01" UNITNAME="MLim01" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MTRconvene.cpp" FORMNAME="FMTRconv" UNITNAME="MTRconvene" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="m_limits.cpp" FORMNAME="" UNITNAME="m_limits" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="m_limits.h" FORMNAME="" UNITNAME="m_limits" CONTAINERID="File" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="queDeriv.cpp" FORMNAME="" UNITNAME="queDeriv" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="mc_deriv.cpp" FORMNAME="" UNITNAME="mc_deriv" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MDeriv.cpp" FORMNAME="FDeriv" UNITNAME="MDeriv" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="queMFlabs.cpp" FORMNAME="" UNITNAME="queMFlabs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="m_mflab.cpp" FORMNAME="" UNITNAME="m_mflab" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="m_expressions.cpp" FORMNAME="" UNITNAME="m_expressions" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TMFlabs.cpp" FORMNAME="FMFlabs" UNITNAME="TMFlabs" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="queInteg.cpp" FORMNAME="" UNITNAME="queInteg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MInteg.cpp" FORMNAME="FInteg" UNITNAME="MInteg" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="m_integ.cpp" FORMNAME="" UNITNAME="m_integ" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="queLimRnd.cpp" FORMNAME="" UNITNAME="queLimRnd" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="LimRnd.cpp" FORMNAME="FLimRnd" UNITNAME="LimRnd" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=1
+MinorVer=1
+Release=8
+Build=1
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.1.8.1
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+F:\mentorsrc\bcb5\PKIEDBC5.BPL=C:\Sviluppo\ImageEn\CBuilder5\PKIEDBc5
+F:\mentorsrc\bcb5\PKIECTRLC5.BPL=ImageEn Controls
+c:\program files (x86)\borland\cbuilder6\Bin\dcl31w50.bpl=Delphi 1.0 Compatibility Components
+c:\program files (x86)\borland\cbuilder6\Bin\bcbsmp50.bpl=Borland C++ Sample Components
+c:\program files (x86)\borland\cbuilder6\Bin\dclado50.bpl=Borland ADO DB Components
+C:\WINDOWS\system32\ibsmp50.bpl=Borland C++ InterBase Alerter Component
+c:\program files (x86)\borland\cbuilder6\Bin\dclqrt50.bpl=QuickReport Components
+c:\program files (x86)\borland\cbuilder6\Bin\dcltqr50.bpl=TeeChart 5.0 for QuickReport Components Design Package
+c:\program files (x86)\borland\cbuilder6\Bin\DCLIB50.bpl=InterBase Data Access Components
+c:\program files (x86)\borland\cbuilder6\Bin\DCLNMF50.bpl=NetMasters Fastnet Tools
+c:\program files (x86)\borland\cbuilder6\Bin\mfcwizard.bpl=MFC Wizard
+
+[HistoryLists\hlIncludePath]
+Count=25
+Item0=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;pas;$(BCB)\include;$(BCB)\include\vcl;BCB5
+Item1=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;pas;$(BCB)\include;$(BCB)\include\vcl;BCB5;D:\mentor\mentorsrc\BCB5
+Item2=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;pas;$(BCB)\include;$(BCB)\include\vcl;C:\Igor\mentorsrc\BCB5
+Item3=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;pas;$(BCB)\include;$(BCB)\include\vcl;Image En\BCB5
+Item4=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;pas;$(BCB)\include;$(BCB)\include\vcl;D:\mentor\Mentor\Mentor\Image En\BCB5
+Item5=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;pas;$(BCB)\include;$(BCB)\include\vcl
+Item6=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;..\Etalon\MENTOR;C:\Program Files\Borland\CBuilder4\Bin\;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;$(BCB)\include;$(BCB)\include\vcl
+Item7=C:\Program Files\Borland\CBuilder5\Bin\;..\..\компоненты\imageen 1.8 with source for delphi and bcb\bcb5;..\Etalon\MENTOR;C:\Program Files\Borland\CBuilder4\Bin\;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item8=C:\Program Files\Borland\CBuilder5\Bin;..\..\компоненты\imageen 1.8 with source for delphi and bcb\bcb5;..\Etalon\MENTOR;C:\Program Files\Borland\CBuilder4\Bin\;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item9=..\..\компоненты\imageen 1.8 with source for delphi and bcb\bcb5;..\Etalon\MENTOR;C:\Program Files\Borland\CBuilder4\Bin\;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item10=..\Etalon\MENTOR;..\..\..\Program Files\Borland\CBuilder4\Bin;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item11=symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item12=symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects;pas;с:\Program Files\Borland\CBuilder4\Projects\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item13=F:\Program Files\Borland\CBuilder4\Projects;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item14=..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item15=..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item16=F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item17=F:\CBuilder4\Projects;F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item18=F:\CBuilder4\Projects;..\3dtest;F:\CBuilder4\Projects\;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item19=..\3dtest;F:\CBuilder4\Projects;..\testform;F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item20=..\testform;F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item21=..\testform;F:\CBuilder4\Projects;F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item22=F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item23=F:\CBuilder4\Projects;cunittst;D:\UTILF;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+Item24=D:\UTILF;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=24
+Item0=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib;BCB5
+Item1=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib;BCB5;D:\mentor\mentorsrc\BCB5
+Item2=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib;C:\Igor\mentorsrc\BCB5
+Item3=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib;Image En\BCB5
+Item4=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib;D:\mentor\Mentor\Mentor\Image En\BCB5
+Item5=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin\;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib
+Item6=D:\Program Files\HiComponents\CImageEn5\BCB5\;C:\Program Files\Borland\CBuilder5\Bin;$(BCB)\Projects\Lib;pas;$(BCB)\lib\obj;$(BCB)\lib
+Item7=C:\Program Files\Borland\CBuilder5\Bin;$(BCB)\Projects\Lib;..\..\компоненты\imageen 1.8 with source for delphi and bcb\bcb5;..\Etalon\MENTOR;C:\Program Files\Borland\CBuilder4\Bin\;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;с:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item8=..\..\компоненты\imageen 1.8 with source for delphi and bcb\bcb5;..\Etalon\MENTOR;C:\Program Files\Borland\CBuilder4\Bin\;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;с:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item9=..\Etalon\MENTOR;..\..\..\Program Files\Borland\CBuilder4\Bin;symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;с:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item10=symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects\;pas;..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;с:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item11=symbols\symbols;с:\Program Files\Borland\CBuilder4\Projects;pas;с:\Program Files\Borland\CBuilder4\Projects\;..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item12=F:\Program Files\Borland\CBuilder4\Projects;..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item13=..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item14=..\CRMODEL\PRASHETB;..\..\Program Files\Borland\CBuilder4\Projects;F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item15=F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item16=F:\CBuilder4\Projects;F:\CBuilder4\Projects\;..\3dtest;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item17=F:\CBuilder4\Projects;..\3dtest;F:\CBuilder4\Projects\;..\testform;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item18=..\3dtest;F:\CBuilder4\Projects;..\testform;F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item19=..\testform;F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item20=..\testform;F:\CBuilder4\Projects;F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item21=F:\CBuilder4\Projects\;cunittst;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item22=F:\CBuilder4\Projects;cunittst;D:\UTILF;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+Item23=D:\UTILF;D:\UTILF\;..\CBuilder4\Projects;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,126 @@
+#include "m_expressions.h"
+
+char *deriv101 (const range& r, char *deriv);
+char *deriv102 (const range& r, char *deriv);
+char *deriv103 (const range& r, char *deriv);
+char *deriv104 (const range& r, char *deriv);
+char *deriv105 (const range& r, char *deriv);
+char *deriv106 (const range& r, char *deriv);
+char *deriv107 (const range& r, char *deriv);
+char *deriv108 (const range& r, char *deriv);
+char *deriv201 (const range& r, char *deriv);
+char *deriv202 (const range& r, char *deriv);
+char *deriv203 (const range& r, char *deriv);
+char *deriv204 (const range& r, char *deriv);
+char *deriv205 (const range& r, char *deriv);
+char *deriv206 (const range& r, char *deriv);
+char *deriv207 (const range& r, char *deriv);
+char *deriv208 (const range& r, char *deriv);
+char *deriv209 (const range& r, char *deriv);
+char *deriv301 (const range& r, char *deriv);
+char *deriv302 (const range& r, char *deriv);
+char *deriv303 (const range& r, char *deriv);
+char *deriv304 (const range& r, char *deriv);
+char *deriv305 (const range& r, char *deriv);
+char *deriv306 (const range& r, char *deriv);
+char *deriv307 (const range& r, char *deriv);
+char *deriv308 (const range& r, char *deriv);
+char *deriv401 (const range& r, char *deriv);
+char *deriv402 (const range& r, char *deriv);
+char *deriv403 (const range& r, char *deriv);
+char *deriv404 (const range& r, char *deriv);
+char *deriv405 (const range& r, char *deriv);
+char *deriv406 (const range& r, char *deriv);
+char *deriv407 (const range& r, char *deriv);
+char *deriv408 (const range& r, char *deriv);
+char *deriv501 (const range& r, char *deriv);
+char *deriv502 (const range& r, char *deriv);
+char *deriv503 (const range& r, char *deriv);
+char *deriv504 (const range& r, char *deriv);
+char *deriv505 (const range& r, char *deriv);
+char *deriv506 (const range& r, char *deriv);
+char *deriv507 (const range& r, char *deriv);
+char *deriv508 (const range& r, char *deriv);
+char *deriv50101v (const range& r, char *deriv);
+char *deriv50102v (const range& r, char *deriv);
+char *deriv50103v (const range& r, char *deriv);
+char *deriv50104v (const range& r, char *deriv);
+char *deriv50105v (const range& r, char *deriv);
+char *deriv50201v (const range& r, char *deriv);
+
+char *deriv050201v (const range& r, char *deriv);
+char *deriv050202v (const range& r, char *deriv);
+//char *deriv050301v (const range& r, char *deriv)
+//char *deriv050302v (const range& r, char *deriv);
+//char *deriv050303v (const range& r, char *deriv);
+// sometimes falls
+char *deriv050401v (const range& r, char *deriv);
+char *deriv050501v (const range& r, char *deriv);
+char *deriv050601v (const range& r, char *deriv);
+
+char *deriv71 (const range &r, char *deriv);
+char *deriv72 (const range& r, char *deriv);
+char *deriv73 (const range &r, char *deriv);
+char *deriv74 (const range &r, char *deriv);
+char *deriv75 (const range &r, char *deriv);
+char *deriv76 (const range &r, char *deriv);
+char *deriv77 (const range &r, char *deriv);
+char *deriv78 (const range& r, char *deriv);
+char *deriv79 (const range& r, char *deriv);
+char *deriv710 (const range& r, char *deriv);
+char *deriv711 (const range& r, char *deriv);
+char *deriv712 (const range& r, char *deriv);
+char *deriv713 (const range& r, char *deriv);
+char *deriv714 (const range& r, char *deriv);
+char *deriv715 (const range& r, char *deriv);
+char *deriv716 (const range& r, char *deriv);
+
+char *derivb119 (const range &r, char *deriv);
+char *derivb120 (const range &r, char *deriv);
+char *derivb121 (const range &r, char *deriv);
+char *derivb122 (const range &r, char *deriv);
+char *derivb123 (const range &r, char *deriv);
+char *derivb124 (const range &r, char *deriv);
+char *derivb125 (const range &r, char *deriv);
+char *derivb126 (const range &r, char *deriv);
+char *derivb127 (const range &r, char *deriv);
+char *derivb128 (const range &r, char *deriv);
+char *derivb129 (const range &r, char *deriv);
+char *derivb219 (const range &r, char *deriv);
+char *derivb220 (const range &r, char *deriv);
+char *derivb221 (const range &r, char *deriv);
+char *derivb222 (const range &r, char *deriv);
+char *derivb223 (const range &r, char *deriv);
+char *derivb224 (const range &r, char *deriv);
+char *derivb225 (const range &r, char *deriv);
+char *derivb226 (const range &r, char *deriv);
+char *derivb227 (const range &r, char *deriv);
+char *derivb228 (const range &r, char *deriv);
+char *derivb229 (const range &r, char *deriv);
+
+
+
+
+char *derivb301 (const range &r, char *deriv);
+char *derivb302 (const range &r, char *deriv);
+char *derivb303 (const range &r, char *deriv);
+char *derivb304 (const range &r, char *deriv);
+char *derivb305 (const range &r, char *deriv);
+char *derivb306 (const range &r, char *deriv);
+char *derivb307 (const range &r, char *deriv);
+char *derivb308 (const range &r, char *deriv);
+char *derivb309 (const range &r, char *deriv);
+char *derivb310 (const range &r, char *deriv);
+char *derivb311 (const range &r, char *deriv);
+char *derivb401 (const range &r, char *deriv);
+char *derivb402 (const range &r, char *deriv);
+char *derivb403 (const range &r, char *deriv);
+char *derivb404 (const range &r, char *deriv);
+char *derivb405 (const range &r, char *deriv);
+char *derivb406 (const range &r, char *deriv);
+char *derivb407 (const range &r, char *deriv);
+char *derivb408 (const range &r, char *deriv);
+char *derivb409 (const range &r, char *deriv);
+char *derivb410 (const range &r, char *deriv);
+char *derivb411 (const range &r, char *deriv);
+
